@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4237DBEF2411A71400A9D8A6 /* Sonifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4237DBED2411A71400A9D8A6 /* Sonifier.cpp */; };
+		4237DBF42411AA2200A9D8A6 /* CombinedDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4237DBF22411AA2200A9D8A6 /* CombinedDetection.cpp */; };
+		4237DBF72411B7FC00A9D8A6 /* AstroSoundUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4237DBF52411B7FC00A9D8A6 /* AstroSoundUtilities.cpp */; };
+		423CA1D9242E2968007A95C5 /* NSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423CA1D8242E2967007A95C5 /* NSImageExtension.swift */; };
+		4246E9ED2417195F008B0336 /* ExplorerWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4246E9EC2417195F008B0336 /* ExplorerWindowController.swift */; };
+		4250F67D23F44C1F0078C47A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250F67C23F44C1F0078C47A /* AppDelegate.swift */; };
+		4250F67F23F44C1F0078C47A /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250F67E23F44C1F0078C47A /* NewTaskViewController.swift */; };
+		4250F68123F44C210078C47A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4250F68023F44C210078C47A /* Assets.xcassets */; };
+		4250F68423F44C210078C47A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4250F68223F44C210078C47A /* Main.storyboard */; };
+		4250F69F23F4BD270078C47A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250F69E23F4BD270078C47A /* CustomButton.swift */; };
+		4250F6A323F58FC90078C47A /* SonifierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250F6A223F58FC80078C47A /* SonifierViewController.swift */; };
+		4259BA5D23F5D5AD0015A1C6 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4259BA5C23F5D5AC0015A1C6 /* CustomScrollView.swift */; };
+		4265273D242C19E700A409E2 /* GalaxyMorphologyClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4265273C242C19E700A409E2 /* GalaxyMorphologyClassifier.mlmodel */; };
+		4265273F242C1A3500A409E2 /* GMCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4265273E242C1A3500A409E2 /* GMCModel.swift */; };
+		42652741242C1C1F00A409E2 /* StarGalaxyClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 42652740242C1C1F00A409E2 /* StarGalaxyClassifier.mlmodel */; };
+		42652743242C2FCC00A409E2 /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42652742242C2FCC00A409E2 /* PreferencesWindowController.swift */; };
+		42652746242D161500A409E2 /* LocalDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42652744242D161500A409E2 /* LocalDetection.cpp */; };
+		42802DB123F990110080C5E7 /* templates in Resources */ = {isa = PBXBuildFile; fileRef = 42802DB023F990110080C5E7 /* templates */; };
+		42B2A20224290DDE005FE272 /* ObjectDetectionPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B2A20124290DDE005FE272 /* ObjectDetectionPreferencesViewController.swift */; };
+		42B2A20824290E20005FE272 /* SonificationPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B2A20724290E20005FE272 /* SonificationPreferencesViewController.swift */; };
+		42B2A20C24292984005FE272 /* PreferencesTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B2A20B24292984005FE272 /* PreferencesTabViewController.swift */; };
+		42DD9D6123F9C8BB004A8001 /* ExplorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DD9D6023F9C8BB004A8001 /* ExplorerViewController.swift */; };
+		42DD9D6323F9F38C004A8001 /* results in Resources */ = {isa = PBXBuildFile; fileRef = 42DD9D6223F9F38C004A8001 /* results */; };
+		42E28DFB241D9FBA0020E8DE /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E28DFA241D9FBA0020E8DE /* Classifier.swift */; };
+		42E28E00241DBC6C0020E8DE /* SGCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E28DFF241DBC6C0020E8DE /* SGCModel.swift */; };
+		42E4D43023F76B93004BEDD9 /* NewTaskWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E4D42F23F76B93004BEDD9 /* NewTaskWindowController.swift */; };
+		42ECBF2E23F6CDEB00D09DC5 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ECBF2D23F6CDEB00D09DC5 /* CustomImageView.swift */; };
+		42F2313423F8E58800DB17DD /* AstroDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42F2313323F8E58800DB17DD /* AstroDetector.mm */; };
+		42F2313C23F96F8D00DB17DD /* AstroUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42F2313A23F96F8D00DB17DD /* AstroUtilities.cpp */; };
+		42F2314023F9765200DB17DD /* Deblender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42F2313E23F9765100DB17DD /* Deblender.cpp */; };
+		42F2314323F976CC00DB17DD /* GlobalDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42F2314123F976CC00DB17DD /* GlobalDetection.cpp */; };
+		42FB893923FBA1920058401A /* KRActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FB893623FBA0E40058401A /* KRActivityIndicatorView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4250F68C23F44C210078C47A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4250F67123F44C1E0078C47A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4250F67823F44C1F0078C47A;
+			remoteInfo = soniastro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4237DBED2411A71400A9D8A6 /* Sonifier.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sonifier.cpp; sourceTree = "<group>"; };
+		4237DBEE2411A71400A9D8A6 /* Sonifier.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sonifier.hpp; sourceTree = "<group>"; };
+		4237DBF02411A7DB00A9D8A6 /* AudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFile.h; sourceTree = "<group>"; };
+		4237DBF22411AA2200A9D8A6 /* CombinedDetection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CombinedDetection.cpp; sourceTree = "<group>"; };
+		4237DBF32411AA2200A9D8A6 /* CombinedDetection.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CombinedDetection.hpp; sourceTree = "<group>"; };
+		4237DBF52411B7FC00A9D8A6 /* AstroSoundUtilities.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AstroSoundUtilities.cpp; sourceTree = "<group>"; };
+		4237DBF62411B7FC00A9D8A6 /* AstroSoundUtilities.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AstroSoundUtilities.hpp; sourceTree = "<group>"; };
+		423CA1D8242E2967007A95C5 /* NSImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageExtension.swift; sourceTree = "<group>"; };
+		4246E9EC2417195F008B0336 /* ExplorerWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerWindowController.swift; sourceTree = "<group>"; };
+		4250F67923F44C1F0078C47A /* soniastro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soniastro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4250F67C23F44C1F0078C47A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4250F67E23F44C1F0078C47A /* NewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
+		4250F68023F44C210078C47A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4250F68323F44C210078C47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4250F68523F44C210078C47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4250F68623F44C210078C47A /* soniastro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = soniastro.entitlements; sourceTree = "<group>"; };
+		4250F68B23F44C210078C47A /* soniastroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soniastroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4250F69E23F4BD270078C47A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		4250F6A223F58FC80078C47A /* SonifierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonifierViewController.swift; sourceTree = "<group>"; };
+		4259BA5C23F5D5AC0015A1C6 /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
+		4265273C242C19E700A409E2 /* GalaxyMorphologyClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GalaxyMorphologyClassifier.mlmodel; sourceTree = "<group>"; };
+		4265273E242C1A3500A409E2 /* GMCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMCModel.swift; sourceTree = "<group>"; };
+		42652740242C1C1F00A409E2 /* StarGalaxyClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = StarGalaxyClassifier.mlmodel; sourceTree = "<group>"; };
+		42652742242C2FCC00A409E2 /* PreferencesWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
+		42652744242D161500A409E2 /* LocalDetection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LocalDetection.cpp; sourceTree = "<group>"; };
+		42652745242D161500A409E2 /* LocalDetection.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LocalDetection.hpp; sourceTree = "<group>"; };
+		42802DB023F990110080C5E7 /* templates */ = {isa = PBXFileReference; lastKnownFileType = folder; name = templates; path = resources/templates; sourceTree = "<group>"; };
+		42B2A20124290DDE005FE272 /* ObjectDetectionPreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetectionPreferencesViewController.swift; sourceTree = "<group>"; };
+		42B2A20724290E20005FE272 /* SonificationPreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonificationPreferencesViewController.swift; sourceTree = "<group>"; };
+		42B2A20B24292984005FE272 /* PreferencesTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesTabViewController.swift; sourceTree = "<group>"; };
+		42DD9D6023F9C8BB004A8001 /* ExplorerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerViewController.swift; sourceTree = "<group>"; };
+		42DD9D6223F9F38C004A8001 /* results */ = {isa = PBXFileReference; lastKnownFileType = folder; name = results; path = resources/results; sourceTree = "<group>"; };
+		42E28DFA241D9FBA0020E8DE /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		42E28DFF241DBC6C0020E8DE /* SGCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGCModel.swift; sourceTree = "<group>"; };
+		42E4D42F23F76B93004BEDD9 /* NewTaskWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskWindowController.swift; sourceTree = "<group>"; };
+		42ECBF2D23F6CDEB00D09DC5 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		42F2313223F8E58800DB17DD /* AstroDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AstroDetector.h; sourceTree = "<group>"; };
+		42F2313323F8E58800DB17DD /* AstroDetector.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AstroDetector.mm; sourceTree = "<group>"; };
+		42F2313923F8ECA600DB17DD /* soniastro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "soniastro-Bridging-Header.h"; sourceTree = "<group>"; };
+		42F2313A23F96F8D00DB17DD /* AstroUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AstroUtilities.cpp; sourceTree = "<group>"; };
+		42F2313B23F96F8D00DB17DD /* AstroUtilities.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AstroUtilities.hpp; sourceTree = "<group>"; };
+		42F2313D23F9734400DB17DD /* soniastro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "soniastro-Prefix.pch"; sourceTree = "<group>"; };
+		42F2313E23F9765100DB17DD /* Deblender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Deblender.cpp; sourceTree = "<group>"; };
+		42F2313F23F9765200DB17DD /* Deblender.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Deblender.hpp; sourceTree = "<group>"; };
+		42F2314123F976CC00DB17DD /* GlobalDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GlobalDetection.cpp; sourceTree = "<group>"; };
+		42F2314223F976CC00DB17DD /* GlobalDetection.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GlobalDetection.hpp; sourceTree = "<group>"; };
+		42FB893623FBA0E40058401A /* KRActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KRActivityIndicatorView.framework; path = Carthage/Build/Mac/KRActivityIndicatorView.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4250F67623F44C1F0078C47A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FB893923FBA1920058401A /* KRActivityIndicatorView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4250F68823F44C210078C47A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4250F67023F44C1E0078C47A = {
+			isa = PBXGroup;
+			children = (
+				42DD9D6223F9F38C004A8001 /* results */,
+				42802DB023F990110080C5E7 /* templates */,
+				4250F67B23F44C1F0078C47A /* soniastro */,
+				4250F67A23F44C1F0078C47A /* Products */,
+				42FB893523FBA0E30058401A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4250F67A23F44C1F0078C47A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4250F67923F44C1F0078C47A /* soniastro.app */,
+				4250F68B23F44C210078C47A /* soniastroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4250F67B23F44C1F0078C47A /* soniastro */ = {
+			isa = PBXGroup;
+			children = (
+				42E28E01241DCE2A0020E8DE /* Classifiers */,
+				42E28DFC241DA96A0020E8DE /* Extensions */,
+				42E28DF9241D9F420020E8DE /* ML Models */,
+				42F2312D23F8D54900DB17DD /* Astro Detection */,
+				42E4D42A23F76A7B004BEDD9 /* Delegates */,
+				4250F6A523F58FFB0078C47A /* Views */,
+				4250F6A423F58FDF0078C47A /* View Controllers */,
+				42E4D42E23F76B69004BEDD9 /* Window Controllers */,
+				4250F68023F44C210078C47A /* Assets.xcassets */,
+				4250F68223F44C210078C47A /* Main.storyboard */,
+				4250F68623F44C210078C47A /* soniastro.entitlements */,
+				4250F68523F44C210078C47A /* Info.plist */,
+			);
+			path = soniastro;
+			sourceTree = "<group>";
+		};
+		4250F6A423F58FDF0078C47A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4250F67E23F44C1F0078C47A /* NewTaskViewController.swift */,
+				4250F6A223F58FC80078C47A /* SonifierViewController.swift */,
+				42DD9D6023F9C8BB004A8001 /* ExplorerViewController.swift */,
+				42B2A20124290DDE005FE272 /* ObjectDetectionPreferencesViewController.swift */,
+				42B2A20724290E20005FE272 /* SonificationPreferencesViewController.swift */,
+				42B2A20B24292984005FE272 /* PreferencesTabViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4250F6A523F58FFB0078C47A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4250F69E23F4BD270078C47A /* CustomButton.swift */,
+				4259BA5C23F5D5AC0015A1C6 /* CustomScrollView.swift */,
+				42ECBF2D23F6CDEB00D09DC5 /* CustomImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		42E28DF9241D9F420020E8DE /* ML Models */ = {
+			isa = PBXGroup;
+			children = (
+				42652740242C1C1F00A409E2 /* StarGalaxyClassifier.mlmodel */,
+				4265273C242C19E700A409E2 /* GalaxyMorphologyClassifier.mlmodel */,
+			);
+			path = "ML Models";
+			sourceTree = "<group>";
+		};
+		42E28DFC241DA96A0020E8DE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				423CA1D8242E2967007A95C5 /* NSImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		42E28E01241DCE2A0020E8DE /* Classifiers */ = {
+			isa = PBXGroup;
+			children = (
+				42E28DFF241DBC6C0020E8DE /* SGCModel.swift */,
+				4265273E242C1A3500A409E2 /* GMCModel.swift */,
+				42E28DFA241D9FBA0020E8DE /* Classifier.swift */,
+			);
+			path = Classifiers;
+			sourceTree = "<group>";
+		};
+		42E4D42A23F76A7B004BEDD9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4250F67C23F44C1F0078C47A /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		42E4D42E23F76B69004BEDD9 /* Window Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				42E4D42F23F76B93004BEDD9 /* NewTaskWindowController.swift */,
+				4246E9EC2417195F008B0336 /* ExplorerWindowController.swift */,
+				42652742242C2FCC00A409E2 /* PreferencesWindowController.swift */,
+			);
+			path = "Window Controllers";
+			sourceTree = "<group>";
+		};
+		42F2312D23F8D54900DB17DD /* Astro Detection */ = {
+			isa = PBXGroup;
+			children = (
+				42F2313223F8E58800DB17DD /* AstroDetector.h */,
+				42F2313323F8E58800DB17DD /* AstroDetector.mm */,
+				4237DBF32411AA2200A9D8A6 /* CombinedDetection.hpp */,
+				4237DBF22411AA2200A9D8A6 /* CombinedDetection.cpp */,
+				42F2314223F976CC00DB17DD /* GlobalDetection.hpp */,
+				42F2314123F976CC00DB17DD /* GlobalDetection.cpp */,
+				42652745242D161500A409E2 /* LocalDetection.hpp */,
+				42652744242D161500A409E2 /* LocalDetection.cpp */,
+				4237DBEE2411A71400A9D8A6 /* Sonifier.hpp */,
+				4237DBED2411A71400A9D8A6 /* Sonifier.cpp */,
+				42F2313B23F96F8D00DB17DD /* AstroUtilities.hpp */,
+				42F2313A23F96F8D00DB17DD /* AstroUtilities.cpp */,
+				4237DBF02411A7DB00A9D8A6 /* AudioFile.h */,
+				4237DBF62411B7FC00A9D8A6 /* AstroSoundUtilities.hpp */,
+				4237DBF52411B7FC00A9D8A6 /* AstroSoundUtilities.cpp */,
+				42F2313F23F9765200DB17DD /* Deblender.hpp */,
+				42F2313E23F9765100DB17DD /* Deblender.cpp */,
+				42F2313923F8ECA600DB17DD /* soniastro-Bridging-Header.h */,
+				42F2313D23F9734400DB17DD /* soniastro-Prefix.pch */,
+			);
+			path = "Astro Detection";
+			sourceTree = "<group>";
+		};
+		42FB893523FBA0E30058401A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42FB893623FBA0E40058401A /* KRActivityIndicatorView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4250F67823F44C1F0078C47A /* soniastro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4250F69423F44C210078C47A /* Build configuration list for PBXNativeTarget "soniastro" */;
+			buildPhases = (
+				4250F67523F44C1F0078C47A /* Sources */,
+				4250F67623F44C1F0078C47A /* Frameworks */,
+				4250F67723F44C1F0078C47A /* Resources */,
+				42FB893823FBA1170058401A /* Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = soniastro;
+			productName = soniastro;
+			productReference = 4250F67923F44C1F0078C47A /* soniastro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4250F68A23F44C210078C47A /* soniastroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4250F69723F44C210078C47A /* Build configuration list for PBXNativeTarget "soniastroTests" */;
+			buildPhases = (
+				4250F68723F44C210078C47A /* Sources */,
+				4250F68823F44C210078C47A /* Frameworks */,
+				4250F68923F44C210078C47A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4250F68D23F44C210078C47A /* PBXTargetDependency */,
+			);
+			name = soniastroTests;
+			productName = soniastroTests;
+			productReference = 4250F68B23F44C210078C47A /* soniastroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4250F67123F44C1E0078C47A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ahmad Aussaili";
+				TargetAttributes = {
+					4250F67823F44C1F0078C47A = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					4250F68A23F44C210078C47A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4250F67823F44C1F0078C47A;
+					};
+				};
+			};
+			buildConfigurationList = 4250F67423F44C1E0078C47A /* Build configuration list for PBXProject "soniastro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4250F67023F44C1E0078C47A;
+			productRefGroup = 4250F67A23F44C1F0078C47A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4250F67823F44C1F0078C47A /* soniastro */,
+				4250F68A23F44C210078C47A /* soniastroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4250F67723F44C1F0078C47A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DD9D6323F9F38C004A8001 /* results in Resources */,
+				42802DB123F990110080C5E7 /* templates in Resources */,
+				4250F68123F44C210078C47A /* Assets.xcassets in Resources */,
+				4250F68423F44C210078C47A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4250F68923F44C210078C47A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42FB893823FBA1170058401A /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/KRActivityIndicatorView.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4250F67523F44C1F0078C47A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B2A20C24292984005FE272 /* PreferencesTabViewController.swift in Sources */,
+				4237DBF72411B7FC00A9D8A6 /* AstroSoundUtilities.cpp in Sources */,
+				4265273D242C19E700A409E2 /* GalaxyMorphologyClassifier.mlmodel in Sources */,
+				4250F69F23F4BD270078C47A /* CustomButton.swift in Sources */,
+				42F2313423F8E58800DB17DD /* AstroDetector.mm in Sources */,
+				4246E9ED2417195F008B0336 /* ExplorerWindowController.swift in Sources */,
+				42F2313C23F96F8D00DB17DD /* AstroUtilities.cpp in Sources */,
+				42E28DFB241D9FBA0020E8DE /* Classifier.swift in Sources */,
+				42652746242D161500A409E2 /* LocalDetection.cpp in Sources */,
+				42DD9D6123F9C8BB004A8001 /* ExplorerViewController.swift in Sources */,
+				42E4D43023F76B93004BEDD9 /* NewTaskWindowController.swift in Sources */,
+				4237DBF42411AA2200A9D8A6 /* CombinedDetection.cpp in Sources */,
+				423CA1D9242E2968007A95C5 /* NSImageExtension.swift in Sources */,
+				42E28E00241DBC6C0020E8DE /* SGCModel.swift in Sources */,
+				42ECBF2E23F6CDEB00D09DC5 /* CustomImageView.swift in Sources */,
+				4265273F242C1A3500A409E2 /* GMCModel.swift in Sources */,
+				42652741242C1C1F00A409E2 /* StarGalaxyClassifier.mlmodel in Sources */,
+				42B2A20824290E20005FE272 /* SonificationPreferencesViewController.swift in Sources */,
+				4250F6A323F58FC90078C47A /* SonifierViewController.swift in Sources */,
+				42652743242C2FCC00A409E2 /* PreferencesWindowController.swift in Sources */,
+				4237DBEF2411A71400A9D8A6 /* Sonifier.cpp in Sources */,
+				42B2A20224290DDE005FE272 /* ObjectDetectionPreferencesViewController.swift in Sources */,
+				42F2314023F9765200DB17DD /* Deblender.cpp in Sources */,
+				4259BA5D23F5D5AD0015A1C6 /* CustomScrollView.swift in Sources */,
+				42F2314323F976CC00DB17DD /* GlobalDetection.cpp in Sources */,
+				4250F67F23F44C1F0078C47A /* NewTaskViewController.swift in Sources */,
+				4250F67D23F44C1F0078C47A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4250F68723F44C210078C47A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4250F68D23F44C210078C47A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4250F67823F44C1F0078C47A /* soniastro */;
+			targetProxy = 4250F68C23F44C210078C47A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4250F68223F44C210078C47A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4250F68323F44C210078C47A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4250F69223F44C210078C47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4250F69323F44C210078C47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4250F69523F44C210078C47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 82ZZQ6422E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "soniastro/Astro Detection/soniastro-Prefix.pch";
+				INFOPLIST_FILE = soniastro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/opencv/4.2.0_1/lib,
+					"/usr/local/Cellar/openal-soft/1.20.1/lib",
+					/usr/local/Cellar/fftw/3.3.8_1/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_gapi",
+					"-lopencv_stitching",
+					"-lopencv_aruco",
+					"-lopencv_bgsegm",
+					"-lopencv_bioinspired",
+					"-lopencv_ccalib",
+					"-lopencv_dnn_objdetect",
+					"-lopencv_dpm",
+					"-lopencv_face",
+					"-lopencv_freetype",
+					"-lopencv_fuzzy",
+					"-lopencv_hfs",
+					"-lopencv_img_hash",
+					"-lopencv_line_descriptor",
+					"-lopencv_quality",
+					"-lopencv_reg",
+					"-lopencv_rgbd",
+					"-lopencv_saliency",
+					"-lopencv_sfm",
+					"-lopencv_stereo",
+					"-lopencv_structured_light",
+					"-lopencv_phase_unwrapping",
+					"-lopencv_superres",
+					"-lopencv_optflow",
+					"-lopencv_surface_matching",
+					"-lopencv_tracking",
+					"-lopencv_datasets",
+					"-lopencv_text",
+					"-lopencv_highgui",
+					"-lopencv_dnn",
+					"-lopencv_plot",
+					"-lopencv_videostab",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_xfeatures2d",
+					"-lopencv_shape",
+					"-lopencv_ml",
+					"-lopencv_ximgproc",
+					"-lopencv_xobjdetect",
+					"-lopencv_objdetect",
+					"-lopencv_calib3d",
+					"-lopencv_imgcodecs",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_xphoto",
+					"-lopencv_photo",
+					"-lopencv_imgproc",
+					"-lopencv_core",
+					"-lopenal",
+					"-lfftw3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmadaussaili.soniastro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "soniastro/Astro Detection/soniastro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				USER_HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/opencv/4.2.0_1/include/opencv4,
+					"/usr/local/Cellar/openal-soft/1.20.1/include",
+					/usr/local/Cellar/fftw/3.3.8_1/include,
+				);
+			};
+			name = Debug;
+		};
+		4250F69623F44C210078C47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 82ZZQ6422E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "soniastro/Astro Detection/soniastro-Prefix.pch";
+				INFOPLIST_FILE = soniastro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/opencv/4.2.0_1/lib,
+					"/usr/local/Cellar/openal-soft/1.20.1/lib",
+					/usr/local/Cellar/fftw/3.3.8_1/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_gapi",
+					"-lopencv_stitching",
+					"-lopencv_aruco",
+					"-lopencv_bgsegm",
+					"-lopencv_bioinspired",
+					"-lopencv_ccalib",
+					"-lopencv_dnn_objdetect",
+					"-lopencv_dpm",
+					"-lopencv_face",
+					"-lopencv_freetype",
+					"-lopencv_fuzzy",
+					"-lopencv_hfs",
+					"-lopencv_img_hash",
+					"-lopencv_line_descriptor",
+					"-lopencv_quality",
+					"-lopencv_reg",
+					"-lopencv_rgbd",
+					"-lopencv_saliency",
+					"-lopencv_sfm",
+					"-lopencv_stereo",
+					"-lopencv_structured_light",
+					"-lopencv_phase_unwrapping",
+					"-lopencv_superres",
+					"-lopencv_optflow",
+					"-lopencv_surface_matching",
+					"-lopencv_tracking",
+					"-lopencv_datasets",
+					"-lopencv_text",
+					"-lopencv_highgui",
+					"-lopencv_dnn",
+					"-lopencv_plot",
+					"-lopencv_videostab",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_xfeatures2d",
+					"-lopencv_shape",
+					"-lopencv_ml",
+					"-lopencv_ximgproc",
+					"-lopencv_xobjdetect",
+					"-lopencv_objdetect",
+					"-lopencv_calib3d",
+					"-lopencv_imgcodecs",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_xphoto",
+					"-lopencv_photo",
+					"-lopencv_imgproc",
+					"-lopencv_core",
+					"-lopenal",
+					"-lfftw3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmadaussaili.soniastro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "soniastro/Astro Detection/soniastro-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				USER_HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/opencv/4.2.0_1/include/opencv4,
+					"/usr/local/Cellar/openal-soft/1.20.1/include",
+					/usr/local/Cellar/fftw/3.3.8_1/include,
+				);
+			};
+			name = Release;
+		};
+		4250F69823F44C210078C47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 82ZZQ6422E;
+				INFOPLIST_FILE = soniastroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmadaussaili.soniastroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soniastro.app/Contents/MacOS/soniastro";
+			};
+			name = Debug;
+		};
+		4250F69923F44C210078C47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 82ZZQ6422E;
+				INFOPLIST_FILE = soniastroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmadaussaili.soniastroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soniastro.app/Contents/MacOS/soniastro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4250F67423F44C1E0078C47A /* Build configuration list for PBXProject "soniastro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4250F69223F44C210078C47A /* Debug */,
+				4250F69323F44C210078C47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4250F69423F44C210078C47A /* Build configuration list for PBXNativeTarget "soniastro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4250F69523F44C210078C47A /* Debug */,
+				4250F69623F44C210078C47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4250F69723F44C210078C47A /* Build configuration list for PBXNativeTarget "soniastroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4250F69823F44C210078C47A /* Debug */,
+				4250F69923F44C210078C47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4250F67123F44C1E0078C47A /* Project object */;
+}

@@ -1,0 +1,20 @@
+//
+//  soniastro-Prefix.pch
+//  soniastro
+//
+//  Created by Ahmad Aussaili on 2/16/20.
+//  Copyright © 2020 Ahmad Aussaili. All rights reserved.
+//
+
+#ifndef soniastro_Prefix_pch
+#define soniastro_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __cplusplus
+#include "opencv2/opencv.hpp"
+#include "opencv2/highgui.hpp"
+#include "fftw3.h"
+#endif
+
+#endif /* soniastro_Prefix_pch */

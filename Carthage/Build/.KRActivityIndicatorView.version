@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+    {
+      "name" : "KRActivityIndicatorView",
+      "hash" : "7018fc5213f3bfae5e89e09a1f731f3edd4560199c6492d328f692d2c205da99",
+      "swiftToolchainVersion" : "4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.0.5",
+  "iOS" : [
+
+  ]
+}
