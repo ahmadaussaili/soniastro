@@ -1,2 +1,2 @@
-# soniastro
+# Soniastro
 The Sonification of Astronomical Images
